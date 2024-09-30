@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FaEye, FaEyeSlash, FaArrowCircleLeft } from 'react-icons/fa';
 import Styles from './Register.module.css';
-import RegisterController from "../../controllers/RegisterController "
+import RegisterController from "../../BackEnd/controllers/RegisterController "
 import 'react-toastify/dist/ReactToastify.css';
 import Logo7 from '../../assets/Images/Logo7.svg';
 

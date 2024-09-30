@@ -3,7 +3,7 @@ import Styles from './RegisterCar.module.css';
 import LogoNew from '../../assets/Images/LogoNewVersion.png';
 import CircleUser from '../../assets/Images/CircleUser.png';
 import { useNavigate } from 'react-router-dom';
-import RegisterCarController from '../../controllers/RegisterCarController'; // Atualização para usar o controlador
+import RegisterCarController from '../../BackEnd/controllers/RegisterCarController'; 
 
 function RegisterCar() {
     const navigate = useNavigate();

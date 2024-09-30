@@ -3,7 +3,7 @@ import Styles from './Profile.module.css';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { ToastContainer, toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
-import ProfileController from "../../controllers/ProfileController";
+import ProfileController from "../../BackEnd/controllers/ProfileController";
 import { signOut } from 'firebase/auth';
 import { auth } from '../../Services/firebaseConfig';
 import LogoNew from '../../assets/Images/LogoNewVersion.png';

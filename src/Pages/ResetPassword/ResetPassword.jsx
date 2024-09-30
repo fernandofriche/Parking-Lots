@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import Logo7 from '../../assets/Images/Logo7.svg';
 import { FaArrowCircleLeft } from "react-icons/fa";
 import "react-toastify/dist/ReactToastify.css";  
-import ResetPasswordController from '../../controllers/ResetPasswordController'; // Atualização para usar o controlador
+import ResetPasswordController from '../../BackEnd/controllers/ResetPasswordController'; 
 
 function ResetPassword() {
     const [email, setEmail] = useState("");
@@ -14,7 +14,7 @@ function ResetPassword() {
 
     const ResetSenha = async (e) => {
         e.preventDefault();
-        const response = await ResetPasswordController.resetPassword(email); // Chama o método da classe
+        const response = await ResetPasswordController.resetPassword(email); 
         if (response.success) {
             toast.success(response.message);
             setEmail(""); // Limpar o campo de email após o envio

@@ -6,7 +6,7 @@ import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { useNavigate, useLocation } from 'react-router-dom';
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import LoginController from "../../controllers/LoginController";
+import LoginController from "../../BackEnd/controllers/LoginController";
 
 function Login() {
     const [email, setEmail] = useState("");

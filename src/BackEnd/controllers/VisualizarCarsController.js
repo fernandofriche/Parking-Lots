@@ -1,6 +1,6 @@
 // src/BackEnd/VisualizarCarsController.js
 import VisualizarCarsService from '../BackEnd/VisualizarCars';
-import VisualizarCarsModel from '../BackEnd/Models/VisualizarCarsModel';
+import VisualizarCarsModel from '../Models/VisualizarCarsModel';
 
 class VisualizarCarsController {
     async fetchCars() {
