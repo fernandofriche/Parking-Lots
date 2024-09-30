@@ -1,5 +1,5 @@
 import { doc, setDoc } from "firebase/firestore"; // Certifique-se de que essas funções estão importadas
-import { db } from "../Services/firebaseConfig"; // Ajuste conforme o caminho correto
+import { db } from "../../Services/firebaseConfig";
 
 class UserModel {
     constructor(uid, email, nomeCompleto) {

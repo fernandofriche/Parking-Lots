@@ -1,5 +1,5 @@
 import { signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from "firebase/auth"; // Adicione GoogleAuthProvider
-import { auth, db } from "../Services/firebaseConfig";
+import { auth, db } from "../../Services/firebaseConfig";
 import { doc, getDoc } from "firebase/firestore";
 
 class LoginController {

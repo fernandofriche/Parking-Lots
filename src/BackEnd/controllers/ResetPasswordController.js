@@ -1,4 +1,4 @@
-import ResetPasswordService from '../BackEnd/resetPassword';
+import ResetPasswordService from '../resetPassword';
 
 class ResetPasswordController {
     async resetPassword(email) {

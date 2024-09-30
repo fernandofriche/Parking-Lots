@@ -1,6 +1,6 @@
 // RegisterController.js
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../Services/firebaseConfig";
+import { auth } from "../../Services/firebaseConfig";
 import UserModel from "../Models/UserModel"
 
 class RegisterController {

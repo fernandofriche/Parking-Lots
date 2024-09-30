@@ -1,5 +1,5 @@
 // src/BackEnd/ProfileController.js
-import ProfileService from '../BackEnd/Profile';
+import ProfileService from '../Profile';
 import ProfileModel from "../Models/ProfileModel"
 
 class ProfileController {

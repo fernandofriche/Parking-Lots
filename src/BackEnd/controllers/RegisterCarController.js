@@ -1,5 +1,5 @@
 // src/BackEnd/RegisterCarController.js
-import RegisterCarService from '../BackEnd/RegisterCar';
+import RegisterCarService from '../RegisterCar';
 import RegisterCarModel from '../Models/RegisterCarModel';
 
 class RegisterCarController {
